@@ -237,6 +237,13 @@ target/
 ########################
 *.env  # Environment variable files
 coverage/
-.pre-commit-config.yaml
-DIRECTORY.md
-README.md
+
+/Math/calculus/theory
+/Math/school_theory
+
+*.png
+*.jpg
+*.jpeg
+*.zip
+*.rar
+*.gif
