@@ -2,7 +2,7 @@ name: SENATOROV
 permissions:
   contents: write  # Grant write access to the repository contents
 on:
- 
+
   pull_request:
     branches:
       - "**"
@@ -42,7 +42,3 @@ jobs:
           git pull
           git add .
           git diff --quiet || (git commit -m "Convert notebooks to Python scripts" && git push)
-
-
-
-          

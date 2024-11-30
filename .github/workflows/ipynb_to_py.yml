@@ -5,7 +5,7 @@ on:
   push:
     branches:
       - "**"
-   
+
   schedule:
     - cron: "0 0 * * *" # Run every day
   workflow_dispatch:
@@ -13,7 +13,7 @@ on:
   delete:
   release:
   issues:
- 
+
 
 jobs:
   convert_notebooks:
@@ -41,7 +41,3 @@ jobs:
           git pull
           git add .
           git diff --quiet || (git commit -m "Convert notebooks to Python scripts" && git push)
-
-
-
-          

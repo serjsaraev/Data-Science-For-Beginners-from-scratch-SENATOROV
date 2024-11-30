@@ -6,7 +6,7 @@ on:
   push:
     branches:
       - "**"
-   
+
   schedule:
     - cron: "0 0 * * *" # Run every day
   workflow_dispatch:
@@ -14,7 +14,7 @@ on:
   delete:
   release:
   issues:
- 
+
 
 jobs:
   pyupgrade:

@@ -1,6 +1,6 @@
 name: SENATOROV
 on:
- 
+
   pull_request:
     branches:
       - "**"

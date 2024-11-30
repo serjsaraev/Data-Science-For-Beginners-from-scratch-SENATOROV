@@ -1,7 +1,7 @@
 ![photo_2024-01-16_20-54-32](https://github.com/user-attachments/assets/fe349ddc-47df-40f7-80b9-5758c15373c7)
 
 
-### Добро пожаловать в команду SENATOROVAI! 
+### Добро пожаловать в команду SENATOROVAI!
 - Выполни инструкцию ниже, если возникнут трудности смело пиши: https://t.me/c/1937296927/2415
 
 ### Расскажи о себе, прошлый опыт, цель обучения, где живешь, лучше пиши на английском, коллеги англоязычные, русский их не родной,
@@ -32,13 +32,13 @@
    - Заполните профиль
    ![изображение](https://github.com/user-attachments/assets/f7dd3818-32b3-4d5b-a1db-925747ca1bbf)
 
-   - Поделитесь ссылкой на ваш профиль Kaggle в чате: [Telegram Chat](https://t.me/c/1937296927/832). в посте добавьте @ВашЮзерНеймТелеграм хэштег #kaggleaccount 
+   - Поделитесь ссылкой на ваш профиль Kaggle в чате: [Telegram Chat](https://t.me/c/1937296927/832). в посте добавьте @ВашЮзерНеймТелеграм хэштег #kaggleaccount
    - [Загрузка ноутбуков на Kaggle](https://youtu.be/Kn9ZcXlCApw)
 4. **ODS.AI**
    - Перейдите на [ODS.AI](https://ods.ai/).
    - Зарегистрируйтесь для создания аккаунта.
    - Поделитесь ссылкой на ваш профиль ODS.AI в чате: [Telegram Chat](https://t.me/c/1937296927/832).
-  
+
 
 
 ### Скачивание и установка программ
@@ -74,9 +74,9 @@
       - congyiwu.vscode-jupytext
       - streetsidesoftware.code-spell-checker-russian
       -  Активация русского языка
-      
+
       Commands (use F1 or View -> Command Palette):
-      
+
           Enable Russian Spell Checker Dictionary
           Enable Russian Spell Checker Dictionary in Workspace
       -  Добавить слово в словарь => наводим на слово и нажимаем ctrl+. потом выбираем add to user settings
@@ -116,7 +116,7 @@
      - Вашим логином в Telegram
      - Ссылкой на ваш профиль GitHub
      - в посте добавьте хэштеги #githubaccount #UsernameTelegram
-     
+
 1. **Создайте новую ветку**
    - Перейдите на [страницу веток](https://github.com/SENATOROVAI/GithubLogin-Data-Science-For-Beginners-from-scratch-SENATOROV/branches) и создайте новую ветку, назвав её вашим [логином GitHub](https://github.com/settings/admin).
 - Пример ![image](https://github.com/user-attachments/assets/09181e62-84f8-4992-86a4-13394c7a014a)
@@ -150,22 +150,22 @@
    - Pylint https://pylint.pycqa.org
    - Pydocstyle https://docs.astral.sh/ruff/rules/#pydocstyle-d
    - Flake8 https://flake8.pycqa.org/en/latest/index.html
-   - Mypy https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html#variables 
-     
+   - Mypy https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html#variables
+
 7. **Пришлите скриншот вашего терминала**
    - Сделайте полный скриншот вашего терминала на весь экран и пришлите в [чат](https://t.me/c/1937296927/3602) пример скриншота
-   
+
    ![изображение](https://github.com/user-attachments/assets/10d94e1b-e7fa-44db-b82b-99674b837466)
 
 7.1 **Если у вас есть локальный репозиторий на компьютере с вашей домашней работой, скопируйте ваш локальный репозиторий который находится в documents/github/ваш_репозиторий, в новый репозиторий documents/github/Data-Science-For-Beginners-from-scratch-SENATOROV,за исключением двух папок:**
-   - /Math/school_theory 
+   - /Math/school_theory
    - /Math/calculus/theory
 
 8. **Ознакомиться с системой штрафов**
    - [Штрафы](https://t.me/c/1937296927/11810/11811)
-   
+
 9. **Ознакомиться с системой бонусов**
-   - [Бонусы](https://t.me/c/1937296927/25305/25306) 
+   - [Бонусы](https://t.me/c/1937296927/25305/25306)
 
 10. **Ознакомиться с системой помощи в комьюнити**
    - [Инструкция помощь](https://t.me/c/1937296927/2415/23729)
@@ -203,7 +203,7 @@
 1. **Обновите ветки**
    - Если в чате GitHub вас просят "обновите ветки", создайте пулреквест из ветки `main` в вашу ветку. Используйте [страницу сравнения](https://github.com/SENATOROVAI/Data-Science-For-Beginners-from-scratch-SENATOROV/compare), чтобы выбрать вашу ветку и инициировать пулреквест.
      ![изображение](https://github.com/user-attachments/assets/af405a89-cbe5-4bca-b58e-4a332536e001)
-   - Скролим в самый низ и нажимаем зелёную кнопку "merge"   
+   - Скролим в самый низ и нажимаем зелёную кнопку "merge"
    - Если возникает конфликт при слиянии
      ![изображение](https://github.com/user-attachments/assets/9253262b-f940-47f5-bda9-510ef3a59b6f)
    - Нажимаем Resolve
@@ -211,7 +211,7 @@
      ![изображение](https://github.com/user-attachments/assets/ac663b18-8974-4fdc-8efd-3193164b2285)
    - Нажимаем Mark as resolved
      ![изображение](https://github.com/user-attachments/assets/95875526-f125-47c9-91d5-8e9f39ed4dce)
-  
+
 ### Дальнейшее обучение и портфолио
 - [Портфолио](https://youtu.be/CQ3J2nCkBSo?si=Sy8wc6IWHDahz3KY)
 
@@ -219,5 +219,5 @@
 
 Следуя этим структурированным шагам, вы сможете обеспечить гладкий процесс внесения изменений и оставаться в соответствии с руководящими принципами репозитория.
 
-     
+
 Если у вас есть вопросы или нужна дополнительная помощь, не стесняйтесь спрашивать!
