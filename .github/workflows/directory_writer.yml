@@ -21,8 +21,15 @@ jobs:
           git config --global user.name "$GITHUB_ACTOR"
           git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
-      - name: Commit and push changes
+      - name: Commit changes
         run: |
           git add DIRECTORY.md README.md
           git commit -m "SENATOROV updating DIRECTORY.md and README.md" || echo "No changes to commit"
-          git push --force origin slyciaqe
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          title: "Update DIRECTORY.md and README.md"
+          body: "This PR updates the DIRECTORY.md and README.md files with the latest changes."
+          base: slyciaqe  # The branch you want to merge into
+          head: ${{ github.sha }}  # The branch with the changes (current commit)
