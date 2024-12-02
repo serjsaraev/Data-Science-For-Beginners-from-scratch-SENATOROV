@@ -2,7 +2,7 @@
 ## Homework
   * [New Stash](HomeWork/new_stash.py)
 
-## Math
+## Math1
   * Calculus
     * [Limit](Math/calculus/limit.py)
 
