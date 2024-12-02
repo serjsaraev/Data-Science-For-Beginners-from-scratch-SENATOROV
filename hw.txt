@@ -1,0 +1,33 @@
+
+Calculus:
+
+Горячие формулы - хелперы https://t.me/c/1937296927/888/23345
+Привет
+Пределы (дедлайн до 01.11)
+Калькулятор пределов https://mathdf.com/lim/ru/
+Калькулятор пределов https://www.wolframalpha.com/input?i=limit+%281%2B1%2Fn%29%5En+as+n-%3Einfinity
+
+1 и 2 пункт делаем параллельно, каждую тему из видео нужно проработать на примерах из 3, 4, 5 пунктов.
+1)свой конспект сохранить в \Math\calculus\limit\название_последней_темы_дата.pdf, https://www.youtube.com/watch?v=zkTFyZVav-s&list=PLGtfmJuN1mTD2ND-zeBWHv3ACO5J0G9DR (Весь плейлист) (больше теории)
+2)https://www.youtube.com/watch?v=ZAiDxlBCW28&list=PLCx14LDfH033RANLVFVAdFIxFHhy1VXHr ДО 6 видео(производная), (больше практики)
+3)https://www.lektorium.tv/matematicheskij-analiz (прочитать весь "Список теоретических материалов"(под видео) и выписать в тетрадь все ПРИМЕРЫ И РЕШЕНИЯ), пройти до производных!
+конспект сохраняешь в \Math\calculus\lektorium\topic_name.pdf  topic_name - название темы
+4)пределы https://www.matburo.ru/ex_ma.php?p1=mapred  минимум 3 примера
+4.1)непрерывность и точки разрыва, https://www.matburo.ru/ex_ma.php?p1=manepr первые 3 задачи
+5) переписать и разобрать минимум 3 папки, 1,7,15 \Math\calculus\theory\Пределы_решения
+Свой конспект сохранить в каждой папке \Math\calculus\theory\Пределы_решения\студент\название_темы_номер_последнего_упражнения.pdf
+6)Демидович https://t.me/c/1937296927/888/22444 (341_2 МАТАН) 5.73,5.75,5.77,5.78,5.102, 5.103, 5.106,5.108, 5.115, 5.116,5.120, 5.134, 5.137, 5.139, 5.141, 5.142,5.143,5.147, 5.149, 5.152, 5.158,5.60, 5.162, 5.164, 5.165,5.175, 5.183, 5.192, 5.213,5.215, 5.231,5.238, 5.241, 5.247,5.248, 5.261,5.272,5.277,5.288,5.289, 5.303,5.305,5.320,5.329,5.338, 5.342, 5.349, 5.351, 5.361,5.362,5.387, 5.388, 5.390,5.391, 5.396, 5.399
+====================
+
+Производные (дедлайн до 14.11)
+Калькулятор производных https://mathdf.com/der/ru/
+Калькулятор производных https://www.wolframalpha.com/input?i=derivative+x+sin%28x%5E2%29
+
+1 и 2 пункт делаем параллельно, каждую тему из видео нужно проработать на примерах из 3, 4, 5 пунктов.
+1) свой конспект сохранить в \Math\calculus\derivative\название_последней_темы_дата.pdf, https://www.youtube.com/watch?v=CQpX5f7iIvM&list=PLGtfmJuN1mTA_vI3eLT8jMTEeJ0YDIh-z
+2) https://www.youtube.com/watch?v=ZAiDxlBCW28&list=PLCx14LDfH033RANLVFVAdFIxFHhy1VXHr С 6 видео(производная)
+3) https://mooc.lektorium.tv/courses/course-v1:MKGTU+MA+2022_03/courseware/6678dff62a1a4b98953be096bc44f6ff/792ef0f7a3354ee0a955ac9407f3b469/?activate_block_id=block-v1%3AMKGTU%2BMA%2B2022_03%2Btype%40sequential%2Bblock%40792ef0f7a3354ee0a955ac9407f3b469
+4) https://www.matburo.ru/ex_ma.php?p1=maproiz первые 2 примера
+5) переписать и разобрать минимум 3 папки, 1,7,15 \Math\calculus\theory\Производные_решения
+Свой конспект сохранить в каждой папке \Math\calculus\theory\Производные_решения\студент\название_темы_номер_последнего_упражнения.pdf
+6) сообщи мне когда дойдёшь до сюда
