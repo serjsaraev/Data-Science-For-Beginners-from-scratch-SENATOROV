@@ -19,6 +19,13 @@
     * [Chapter 5 Control Flow In Python](Python/made-easy/chapter_5_control_flow_in_python.ipynb)
     * [Chapter 5 Control Flow In Python](Python/made-easy/chapter_5_control_flow_in_python.py)
 
+## Docs
+  * Git
+    * [Git Command](docs/git/git_command.ipynb)
+    * [Git Command](docs/git/git_command.py)
+    * [Intro To Git](docs/git/intro_to_git.ipynb)
+    * [Intro To Git](docs/git/intro_to_git.py)
+
 ## [Hw](/hw.ipynb)
 
 ## [Hw](/hw.py)
