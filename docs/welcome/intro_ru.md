@@ -6,7 +6,6 @@
 
 - <p>Старые студенты сразу переходят <a href="#скачайте-репозиторий-на-свой-компьютер">к этому пункту</a>, при условии что предыдущие выполнены</p>
 
-### Добро пожаловать в команду SENATOROVAI! 
 - Выполни инструкцию ниже, если возникнут трудности смело пиши: https://t.me/c/1937296927/2415
 
 ---
@@ -164,12 +163,13 @@
 ![image](https://github.com/user-attachments/assets/99f05e36-f698-486a-8f95-50225043fb22)
    
 - Пример ![image](https://github.com/user-attachments/assets/09181e62-84f8-4992-86a4-13394c7a014a)
-4. **Клонируйте репозиторий, лучше конкретную ветку**
-   - Скачайте репозиторий на ваш локальный компьютер любым удобным способом. Рекоммендую Github Desktop
-  <img width="700px" alt="Screenshot 2024-11-27 at 4 01 19 AM" src="https://github.com/user-attachments/assets/51b74e3d-369b-46fa-be37-6f99c44bf587">
+4. **Клонируйте репозиторий**
+   - Скачайте репозиторий на ваш локальный компьютер, нажимаем code->open with Github Desktop
+
+<img width="300px" alt="Screenshot 2024-11-27 at 4 26 31 AM" src="https://github.com/user-attachments/assets/c3cda1c0-98ce-4c29-8ed9-4b3ecee34c06">
   
 
-4.1 **Клонирование конкретной ветки**
+4.1 **(опционально)Клонирование конкретной ветки**
 
 - откройте терминал/командную строку, перейдите в ваш репозиторий с помощью команды ``cd documents/github/``
 - `` git clone --branch название-ветки https://github.com/SENATOROVAI/Data-Science-For-Beginners-from-scratch-SENATOROV.git ``
@@ -205,9 +205,9 @@
    
    ![изображение](https://github.com/user-attachments/assets/10d94e1b-e7fa-44db-b82b-99674b837466)
 
-7.1 **Если у вас есть локальный репозиторий на компьютере с вашей домашней работой, скопируйте ваш локальный репозиторий который находится в documents/github/ваш_репозиторий, в новый репозиторий documents/github/Data-Science-For-Beginners-from-scratch-SENATOROV,за исключением двух папок:**
-   - /Math/school_theory 
-   - /Math/calculus/theory
+7.1 **Если у вас есть локальный репозиторий на компьютере с вашей домашней работой, скопируйте ТОЛЬКО файлы и папки с домашней работой из documents/github/ваш_репозиторий, в новый репозиторий Documents/github/Data-Science-For-Beginners-from-scratch-SENATOROV**
+
+7.2 <a href="#commit-переходим-в-курсор-и-жмём-на-клиент-гита">Отправляем коммит</a> 
 
 8. **Ознакомиться с системой штрафов**
    - [Штрафы](https://t.me/c/1937296927/11810/11811)
@@ -235,12 +235,11 @@
    
 16. **Ответьте на квизы и пришлите пул реквест**
    - [Квиз](https://github.com/SENATOROVAI/Data-Science-For-Beginners-from-scratch-SENATOROV/issues/2)
-   - [pull requests](https://www.youtube.com/live/Fdhy4W4U4os)
 17. **Внимательно прочитайте инструкцию по  git**
    - [git](https://github.com/SENATOROVAI/Data-Science-For-Beginners-from-scratch-SENATOROV/blob/main/docs/git/intro_to_git.ipynb)
 18. **Приступите к практике по git**
    - [git задание](https://github.com/SENATOROVAI/Data-Science-For-Beginners-from-scratch-SENATOROV/issues/11)
-   - [git course](https://learngitbranching.js.org/?locale=ru_RU)
+   - [git course](https://learngitbranching.js.org/?locale=ru_RU) - (опционально) доп курс по гит, если предыдущих не хватило.
 19. **Практика  Github**
    - [КАК РЕШИТЬ любую ПРОБЛЕМУ связанную с OPENSOURCE](https://www.youtube.com/live/6U09wLPorYw)
    - [Как искать информацию на Github и алгоритм решения неработающих плагинов VS CODE/Cursor](https://www.youtube.com/watch?v=-aCdtZ8qL24)
@@ -260,7 +259,46 @@
       <img src="https://github.com/user-attachments/assets/ac663b18-8974-4fdc-8efd-3193164b2285" alt="Example" width="700px">
    - Нажимаем Mark as resolved
      ![изображение](https://github.com/user-attachments/assets/95875526-f125-47c9-91d5-8e9f39ed4dce)
+
+---
+
+2. **Сложный конфликт**
+   
+<img width="491" alt="Screenshot 2024-11-28 at 1 21 12 AM" src="https://github.com/user-attachments/assets/99f348bb-f122-47bc-a43a-810b3b7b6abc">
+
+### Commit (Переходим в курсор и жмём на клиент гита)
   
+<img width="491" alt="Screenshot 2024-11-28 at 1 21 12 AM" src="https://github.com/user-attachments/assets/236357d9-9682-4ff8-8cd9-39433e1205e3">
+
+- Затрекайте свои временные изменения в коммит, нажмите "+" чтобы внести изменения в трекинг систему гит
+- Список Changes должен быть пустым
+- Дополнительно можете ещё раз убедиться что всё готово к слиянию веток, введите в терминал:``git status``, список файлов должен быть зелёный
+<img width="500" alt="Screenshot 2024-11-29 at 11 29 54 PM" src="https://github.com/user-attachments/assets/6bb4a32e-ef01-4aaa-b006-d8a12dc499b0">  
+<img width="524" alt="Screenshot 2024-11-29 at 11 41 12 PM" src="https://github.com/user-attachments/assets/d9372fff-894d-4c19-aa84-ce96c170ed4f">
+
+- чтобы сделать пустую строку между тайтл и дескрипшен жмём shift+enter, если в коммите участвуют системные файлы, которые я добавил, значит пишете, "update system files", Отправляем коммит нажатием на кнопку **commit&sync**, и потом делаем merge веток
+
+<img src="https://github.com/user-attachments/assets/355ac07d-285c-4133-84b0-185d875ca928" alt="Example" width="700px">    
+
+- Внизу слева, должна быть написана **ваша ветка, которую вы создали**
+- Нажимаем 3 точки,  merge
+
+![изображение](https://github.com/user-attachments/assets/43b1620f-86c6-4679-a4b7-e37d31eeeba4)
+
+- выбираем из какой ветки будем мержиться, нажимаем на **"origin/main remote branch"**, то есть с той ветки которая лежит на сайте гитхаб, а не ,main которая у вас на компе, поздравляю, вы успешно обновили ветку, но иногда надо устранять конфликты вручную, поэтому если это ваш случай, читайте дальше доку.
+
+![изображение](https://github.com/user-attachments/assets/89b59451-31e2-4f5a-8333-c7e093cf304f)
+
+- Нажимаем accept current change , это то что пришло с гитхаба, наши локальные данные удаляться.
+
+![изображение](https://github.com/user-attachments/assets/ca29e057-fd1b-4b99-b66b-6ac9e5c2bd8e)
+
+![изображение](https://github.com/user-attachments/assets/49afd7e8-d965-47a9-9254-10b76816bb6e)  
+
+- отдаём коммит, ВЫ УСПЕШНО РЕШИЛИ КОНФЛИКТ И ОБНОВИЛИ ВЕТКУ!
+
+---
+
 ### Дальнейшее обучение и портфолио
 - [Портфолио](https://youtu.be/CQ3J2nCkBSo?si=Sy8wc6IWHDahz3KY)
 
