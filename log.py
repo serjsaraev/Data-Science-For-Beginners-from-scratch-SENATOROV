@@ -1,6 +1,18 @@
 """Логирование уроков."""
 
 # <font size="5">
+# 08/12/2024 Linear algebra
+# </font>
+#
+# 1. Scalar definition
+#
+# 2. Vector definition
+#
+# 3. Coordinate and vector difference
+#
+# 4. Vector plotting in Python (Math/linear_algebra/vectors_part1)
+
+# <font size="5">
 # 05/12/2024 Математический анализ
 # </font>
 #
