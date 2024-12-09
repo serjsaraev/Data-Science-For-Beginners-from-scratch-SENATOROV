@@ -150,4 +150,4 @@
 # *07.12.24*
 #
 # - We discussed the further
-# study plan.
+# study plan
