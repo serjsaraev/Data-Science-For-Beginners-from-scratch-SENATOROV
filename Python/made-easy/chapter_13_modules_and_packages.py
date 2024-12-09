@@ -5,9 +5,7 @@ import sys
 
 import fibo
 # from fibo import *
-from fibo import fib
-
-from fibo import fib2
+from fibo import fib, fib2
 
 # -
 
@@ -101,7 +99,7 @@ fib(500)
 
 sys.ps1
 
-sys.ps1
+sys.ps2
 
 sys.ps1 = " С> "
 
