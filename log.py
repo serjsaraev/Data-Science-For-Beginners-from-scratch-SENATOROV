@@ -1,6 +1,43 @@
 """Логирование уроков."""
 
 # <font size="5">
+# 10/12/2024 Linear algebra
+# </font>
+#
+# 1. Linear algebra python notebooks copy and pre-commit
+#
+# 2. Python-code reading. Python function and method definition
+#
+# 3. Dimensionality and importance of numbers order in vectors
+#
+# 4. Brackets: square brackets, parentheses etc.
+#
+# 5. Functions as vector elements
+#
+# 6. Vector orientation: column and row vectors
+#
+# 7. Python code difference in list, array without orientation, column vector
+# and row vector
+#
+# 8. Subscription of vector and vector elements
+#
+# 9. Zero vector
+#
+# 10. Vector transposition
+#
+# 11. Commutative vector addition
+#
+# 12. Two methods of vector subtraction
+#
+# 13. Important dimensionality condition for addition and subtraction
+#
+# 14. Vector scaling, turn backwards (flip)
+#
+# 15. Scalar-vector multiplication
+#
+# 16. Vector multiplication and division
+
+# <font size="5">
 # 08/12/2024 Linear algebra
 # </font>
 #
