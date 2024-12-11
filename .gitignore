@@ -239,6 +239,11 @@ target/
 coverage/
 
 
+<<<<<<< HEAD
+/Math/calculus/theory
+/Math/calculus/theory
+*.jpg
+=======
 
 *.png
 *.jpg
@@ -333,3 +338,4 @@ coverage/
 
 /Math/calculus/theory
 /Math/school_theory
+>>>>>>> 454b8b59d507418c1675763bf47b25caffd5db2d
