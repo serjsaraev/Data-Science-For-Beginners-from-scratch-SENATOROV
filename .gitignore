@@ -239,6 +239,7 @@ target/
 coverage/
 
 
+<<<<<<< HEAD
 
 *.png
 *.jpg
@@ -333,3 +334,8 @@ coverage/
 
 /Math/calculus/theory
 /Math/school_theory
+=======
+/Math/calculus/theory
+/Math/calculus/theory
+*.jpg
+>>>>>>> 47a06f6 (Add multiple files including math, python and business analyst materials)
