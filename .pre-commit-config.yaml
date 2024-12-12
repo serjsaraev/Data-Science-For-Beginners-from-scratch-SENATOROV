@@ -19,13 +19,17 @@ repos:
     hooks:
       - id: docformatter
         args: [--in-place, --wrap-descriptions=79, --style=google]
+  - repo: https://github.com/asottile/add-trailing-comma
+    rev: "v3.1.0"
+    hooks:
+      - id: add-trailing-comma
   - repo: https://github.com/psf/black.git
     rev: "24.10.0"
     hooks:
       - id: black
 
   - repo: https://github.com/nbQA-dev/nbQA
-    rev: 1.9.0
+    rev: 1.9.1
     hooks:
       - id: nbqa-black
         name: nbqa-black
@@ -49,7 +53,7 @@ repos:
           - --float-to-top
 
   - repo: https://github.com/nbQA-dev/nbQA
-    rev: "1.9.0"
+    rev: "1.9.1"
     hooks:
       - id: nbqa
         entry: nbqa blacken-docs
@@ -59,7 +63,7 @@ repos:
         args:
           - --nbqa-md
   - repo: https://github.com/nbQA-dev/nbQA
-    rev: 1.9.0
+    rev: 1.9.1
     hooks:
       - id: nbqa-pyupgrade
         name: nbqa-pyupgrade
@@ -91,11 +95,11 @@ repos:
           - --ignore-regex=[A-Za-z0-9+/]{100,}
           - --skip=*.js,*.html,*.css,*.svg",*.json,*.png,*.jpg,*.yml,*.yaml
   - repo: https://github.com/nbQA-dev/nbQA
-    rev: 1.9.0
+    rev: 1.9.1
     hooks:
       - id: nbqa-flake8
         args:
-          - --ignore=E501,E712,W291,F632,E203,F821,F403,W391,F401
+          - --ignore=E501,E712,W291,F632,E203,F821,F403,W391
           - --exclude=.*,__init__.py
         name: nbqa-flake8
         description: Run 'flake8' on a Jupyter Notebook
@@ -113,7 +117,7 @@ repos:
     hooks:
       - id: flake8
         args:
-          - --ignore=E501,E712,W291,F632,E203,F821,F403,W391,F401
+          - --ignore=E501,E712,W291,F632,E203,F821,F403,W391
           - --exclude=.*,__init__.py
         additional_dependencies:
           - flake8-variables-names
@@ -121,7 +125,7 @@ repos:
           - flake8-functions-names
 
   - repo: https://github.com/nbQA-dev/nbQA
-    rev: 1.9.0
+    rev: 1.9.1
     hooks:
       - id: nbqa-mypy
         name: nbqa-mypy
@@ -204,7 +208,7 @@ repos:
           - types-setuptools
 
   - repo: https://github.com/nbQA-dev/nbQA
-    rev: 1.9.0
+    rev: 1.9.1
     hooks:
       - id: nbqa-pylint
         name: nbqa-pylint
@@ -218,11 +222,11 @@ repos:
           - --ignore=no_check*,__init__.py
           - --max-line-length=79
           - --const-naming-style=any
-          - --disable=E0401,W0104,R0903,R1721,E1101,E0611,F0002,C0305,C0303,E2515
+          - --disable=E0401,W0104,R0903,R1721,E1101,E0611,F0002,C0305
 
 
-  - repo: https://github.com/pylint-dev/pylint
-    rev: "v3.3.1"
+  - repo: https://github.com/pre-commit/mirrors-pylint
+    rev: "v3.0.0a5"
     hooks:
       - id: pylint
         name: pylint
@@ -234,12 +238,12 @@ repos:
             "--ignore=no_check*,__init__.py",
             "--max-line-length=79",
             "--const-naming-style=any",
-            "--disable=E0401,W0104,R0903,R1721,E1101,E0611,F0002,C0305,line-too-long,C0303,E2515"
+            "--disable=E0401,W0104,R0903,R1721,E1101,E0611,F0002,C0305,line-too-long"
           ]
         additional_dependencies: [pylint]
 
   - repo: https://github.com/nbQA-dev/nbQA
-    rev: 1.9.0
+    rev: 1.9.1
     hooks:
       - id: nbqa-pydocstyle
         name: nbqa-pydocstyle
