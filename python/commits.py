@@ -33,3 +33,5 @@ def generate_report(*args: int) -> int:
 
 
 print(generate_report(5, 5, 5, 6))
+
+2 + 2 * 9
