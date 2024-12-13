@@ -32,6 +32,11 @@ def generate_report(*args: int) -> int:
     return sum(args)
 
 
-print(generate_report(5, 5, 5, 6))
+print(
+    generate_report(
+        5,
+        5,
+    )
+)
 
-2 + 2 * 9
+5 + 5
