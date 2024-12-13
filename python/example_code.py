@@ -1,6 +1,10 @@
 """Example code."""
 
-# Создание вертуального окружение нужно для изоляции одного проекта от другого
+import sys
+from typing import Union
+
+# Создание вертуального окружения необходимо для изоляции одного проекта
+# от  другого
 
 # Подкотовка к созданию окружения
 # # mkdir new_priject
@@ -278,8 +282,8 @@ while count_a > 0:
         break
 else:
     print("Исчерпаны все попытки")
-    exit  # Выход из терминала, в
-    # функцию передается число отличие от 0
+    sys.exit(1)  # Exit from the terminal, in
+    # the function is passed a number other than 0
 
 print("Было введено число ", num)
 # -
@@ -296,7 +300,9 @@ print("Было введено число ", num)
 date = [0, 1, 1, 2, 3, 5, 8, 13, 21]
 
 for _ in date:
+    # Внутри date нельзя
     print(_)
+    # Переменной _ можно делать все что хочешь
 
 # +
 num_ren = int(input())
@@ -316,3 +322,80 @@ animals = ["cat", "dog", "wolf", "rate", "dragon"]
 
 for i_key, animal in enumerate(animals, start=1):  # ключивое слова start = 1
     print(i_key, animal)  # в счечик i передаем 1, слейдуюшие действие 1 + 1
+
+# Циклы в Python
+different_date = 10
+while different_date < 100:
+    different_date += 2
+    if different_date % 40 == 0:
+        break
+print(different_date)
+
+cycle = 0
+while cycle < 100:
+    cycle += 3
+    if cycle % 40 == 0:
+        break
+else:
+    cycle += 5
+print(cycle)
+
+
+cycle_first = 0
+while cycle_first < 100:
+    cycle_first += 3
+    if cycle_first % 19 == 0:
+        continue
+    cycle_first += 1
+    if cycle_first % 40 == 0:
+        break
+else:
+    cycle_first += 5
+print(cycle_first)
+
+
+# array -  Масив не прерывнная область в оперативной  памяти котороя поделена на ячейки
+# равного размера в каждой ячейки храняться данные одного типа
+# Пример целые числа
+
+# linked list - связонной список некая область в оперативной памяти
+# которая отдельно хранит полезные данные и ссылку на обьект
+# обьекты ссылаються друг на друга выстраевая цепочку
+
+# В Python list называеться массивом -
+# динамическим массивом - который может изметь свой размер который может
+# добовлять какие-то данные
+# Список лист в Python это массив у него есть непрерывная область в памяти
+# каждый ячейка занимает свой размер но в ячейках хранится не какие-то
+# полезные данные А адрес указатель на этот самый объект - Отсюда наз лист список
+# то есть массив - хранит адреса указтели на объекты
+
+list_1: list[int] = list((3, 14, 2))
+# Получаем пустой массив который не хранит никаких данных
+list_2 = list((3, 14, True, "Hello world"))  # Ecли мы хотим вызвать функцию list
+# и передаеить туда какую-то последовательность то функция распакует все объекты
+# пройдется с лева на право и каждый объект поместит внутрь списка
+# Мы получим динамический массив ссылаюшихся на все указаный объекты
+list_3: list[int] = [1, 3]  # Синтаксический сахар работает быстрее
+
+# Доступ к элементу списка по его индексу
+my_list: list[int] = [1, 3, 4, 5, 4]
+
+print(my_list[1])
+print(my_list[-1])
+
+number = 32
+string_3 = "Hello world"
+
+list_numbers: list[int] = [1, 2, 3, 4]
+
+my_list_differnt_values: list[Union[int, str, None]] = [None]
+
+my_list_differnt_values.append(number)
+print(my_list_differnt_values)
+
+my_list_differnt_values.append(string_3)
+print(my_list_differnt_values)
+
+my_list_differnt_values.extend(list_numbers)
+print(my_list_differnt_values)
