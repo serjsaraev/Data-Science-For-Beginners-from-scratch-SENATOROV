@@ -3,3 +3,4 @@
 ### Подробная инструкция https://github.com/SENATOROVAI/repo-data/blob/main/docs/welcome/intro_ru.md
  
  
+ 
