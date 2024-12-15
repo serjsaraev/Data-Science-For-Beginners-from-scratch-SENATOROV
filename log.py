@@ -1,6 +1,26 @@
 """Логирование уроков."""
 
 # <font size="5">
+# 15/12/2024 Linear algebra
+# </font>
+#
+# 1. Apk-file installation for two-factor authentication
+#
+# 2. Difference between list and vectors
+#
+# 3. Radius vector definition
+#
+# 4. Attribute and method in Python class
+#
+# 5. Vector addition and subtraction peculiarities (including -1 multiplication)
+#
+# 6. Algebraic and geometric vector interpretation
+#
+# 7. Python scalar-vector multiplication
+#
+# 8. Range in Python
+
+# <font size="5">
 # 10/12/2024 Linear algebra
 # </font>
 #
