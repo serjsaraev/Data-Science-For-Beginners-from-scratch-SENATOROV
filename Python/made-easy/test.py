@@ -1,7 +1,9 @@
 """Test."""
 
-1 + 1
+print(1 + 1)
 
-2 + 2
+print(2 + 2)
 
 # ![image.png](attachment:image.png)
+
+print(2 + 2)
