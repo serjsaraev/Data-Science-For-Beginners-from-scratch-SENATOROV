@@ -36,7 +36,7 @@ for i in range(10):
     sn = np.random.randn()
     sv = sn * vc2d
     plt.plot([0, sv[0]], [0, sv[1]])
-plt.grid("on")
+plt.grid(True)
 plt.axis((-4, 4, -4, 4))
 
 # +
