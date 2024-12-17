@@ -1,6 +1,27 @@
 """Логирование уроков."""
 
 # <font size="5">
+# 17/12/2024 Linear algebra
+# </font>
+#
+# 1. Dot (scalar) product as inner product special case
+#
+# 2. Matrix application in Machine Learning
+#
+# 3. The dot product notation
+#
+# 4. Dimensionality for dot product
+#
+# 5. Vector magnitude-squared as the sum of squared elements
+#
+# 6. Common arithmetic properties, in particular, associative property of the
+# dot product
+#
+# 7. Vector broadcasting
+#
+# 8. Tensor as multi-dimensional array of numbers
+
+# <font size="5">
 # 15/12/2024 Linear algebra
 # </font>
 #
