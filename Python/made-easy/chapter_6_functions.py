@@ -595,7 +595,7 @@ reverse_list(my_list)
 # 8. Напишите функцию для расчета сложных процентов.
 
 # +
-summa = int(input("Сумма"))
+your_summ = int(input("Сумма"))
 number2 = int(input("Ставка"))
 period = int(input("Лет"))
 
@@ -607,7 +607,7 @@ def calculate_profit(money: int, rate: int, years: int) -> None:
         print(percent)
 
 
-calculate_profit(summa, number2, period)
+calculate_profit(your_summ, number2, period)
 
 
 # -
