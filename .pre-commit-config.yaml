@@ -18,7 +18,7 @@ repos:
     rev: "eb1df347edd128b30cd3368dddc3aa65edcfac38"
     hooks:
       - id: docformatter
-        args: [--in-place, --wrap-descriptions=79, --style=google]
+        args: [--in-place, --wrap-descriptions=79, --style=google] 
   - repo: https://github.com/psf/black.git
     rev: "24.10.0"
     hooks:
