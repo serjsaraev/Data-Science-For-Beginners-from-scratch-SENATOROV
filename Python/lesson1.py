@@ -19,6 +19,6 @@
 
 ("Chapter_1_Introduction_to_Data_Science_and_Programming_Basics.ipynb").lower()
 
-str
+# str
 
 # 1. линтер - это инструмент анализа и поиска ошибок
