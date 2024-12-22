@@ -1,6 +1,22 @@
 """Логирование уроков."""
 
 # <font size="5">
+# 22/12/2024 Linear algebra
+# </font>
+#
+# Python programming:
+#
+# 1. The norm of vector
+#
+# 2. A vector to unit vector transformation
+#
+# 3. Zeros vector to unit vector transformation impossibility
+#
+# 4. Creation of a vector of any arbitrary magnitude
+#
+# Dot product as optimization task
+
+# <font size="5">
 # 17/12/2024 Linear algebra
 # </font>
 #
@@ -33,7 +49,8 @@
 #
 # 4. Attribute and method in Python class
 #
-# 5. Vector addition and subtraction peculiarities (including -1 multiplication)
+# 5. Vector addition and subtraction peculiarities (including -1
+# multiplication)
 #
 # 6. Algebraic and geometric vector interpretation
 #
@@ -120,8 +137,8 @@
 #
 # 12. Отношение функций и их степеней в пределе (бесконечность, 0, k, 1)
 #
-# 13. Методы избавления от неопределенностей разного вида. Непрерывность функции
-# и ее доказательство
+# 13. Методы избавления от неопределенностей разного вида. Непрерывность
+# функции и ее доказательство
 #
 # 14. Точки разрыва (род и тип)
 #
