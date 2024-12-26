@@ -1,25 +1,4 @@
-# ---
-# jupyter:
-#   jupytext:
-#     formats: ipynb,py:percent
-#     notebook_metadata_filter: -kernelspec
-#     text_representation:
-#       extension: .py
-#       format_name: percent
-#       format_version: '1.3'
-#       jupytext_version: 1.16.4
-# ---
-
-# %%
-
-# %%
-
-
 """Chapter 4 Objects and Operators in Python."""
-
-
-# %%
-
 
 import keyword
 import math
@@ -66,11 +45,7 @@ import math
 # * You can't use reserved names such as: any, break, try and etc.
 # * Hint: to check reserved words you can execute this code:
 
-# %%
-
-
 print(keyword.kwlist)
-
 
 # ## Program Structure
 #
@@ -148,44 +123,20 @@ print(keyword.kwlist)
 #
 # An object's identity never changes once it has been created. That becomes the object's address in memory.In Python, every Object’s Identity (or Address in memory) is represented by a number. You can see that number by using the id() function.
 
-# %%
-
-
 a_id_example: int = 5
 id(a_id_example)
 
-
 # The type() function returns an object's type. Like its identity, an object's type is also unchangeable.
-
-# %%
-
 
 str  # str means String.
 
-
-# %%
-
-
 float  # floating point number
-
-
-# %%
-
 
 type(["x", "yz", "abc"])  # list containing 3 strings
 
-
-# %%
-
-
 type(["x", "y", 1])  # list containing 2 strings and one number
 
-
-# %%
-
-
 type({"food": "spam", "taste": "yum"})  # dictionary
-
 
 # ### Mutable and Immutable Objects
 #
@@ -257,33 +208,17 @@ type({"food": "spam", "taste": "yum"})  # dictionary
 #
 # `chr()` converts an integer in the range 0 - 10FFFF to the corresponding length 1 string object.
 
-# %%
-
-
 ord("nilabh"[3])  # this is same as ord('a')
-
-
-# %%
-
 
 ord("a")
 
-
-# %%
-
-
 chr(97)
-
-
-# %%
-
 
 print(chr(96))
 print(chr(100))
 print(chr(99))
 print(chr(1045))
 print(chr(100009))
-
 
 # ##### Tuples
 #
@@ -437,19 +372,11 @@ print(chr(100009))
 # | not in | x not in y | True if x is a not a member of collection y |
 #
 
-# %%
-
-
 4 == 2 * 2
-
-
-# %%
-
 
 input_string: str = "string"
 if "i" in input_string:
     print("True, Found 'i' in the string")
-
 
 # #### Indentation
 #
@@ -509,19 +436,11 @@ if "i" in input_string:
 #
 # In Python, though the value that a variable point to has a type, the variable itself has no strict type in its definition. You can reuse the same variable to point to an object of a different type.
 
-# %%
-
-
 six_number: int = 6
 six_number
 
-
-# %%
-
-
 six_string: str = "six"
 six_string
-
 
 # #### Summary
 #
@@ -671,9 +590,7 @@ six_string
 # 1. Peter's salary is 12000 per month. If he saves 20% of his salary every month, write a code to calculate his total savings at the end of the year.
 #
 
-# %%
-
-
+# +
 salary: int = 12000
 
 savings_per_month: float = salary * 0.2
@@ -681,13 +598,11 @@ savings_per_month: float = salary * 0.2
 total_savings: float = savings_per_month * 12
 
 total_savings
-
+# -
 
 # 2. Distance between Mumbai and Delhi is 1422 KMs. If Sundar travels in a car with an average speed of 45 Miles per hour, how long will it take him to cover this distance?
 
-# %%
-
-
+# +
 city_distance: int = 1422  # kms
 
 car_speed: int = 45  # mph
@@ -699,13 +614,14 @@ cover_time: float = city_distance / car_speed_kms
 cover_time
 
 
+# -
+
 # 3. The temperature of a normal person is in the range of 97 degrees
 # Fahrenheit to 99 degrees Fahrenheit. What will be this range in
 # Degree Centigrade?
 
-# %%
 
-
+# +
 def fahrenheit_converter(fahrenheit: float) -> float:
     """Convert a temperature from Fahrenheit to Celsius.
 
@@ -729,12 +645,13 @@ temp_celsius_high: float = fahrenheit_converter(fahrenheit_high)
 print(f"{temp_celsius_low:.2f}°C to {temp_celsius_high:.2f}°C")
 
 
+# -
+
 # 4. Take any 6 digit number. Write a program to calculate the sum of all
 # the digits of the numb
 
-# %%
 
-
+# +
 def sum_of_digits(number: int) -> int:
     """Calculate the sum of all digits in a given number.
 
@@ -751,14 +668,12 @@ six_digit_number = 123456
 result = sum_of_digits(six_digit_number)
 
 result
-
+# -
 
 # 5. Sales per month of 5 Book Shops in Brooklyn, New York City are as follows. A = $6500, B = $8000, C = $12000, D = $4900 and E = $5600. Assuming that there are only these 5 book shops in Brooklyn, find out the market share of each shop. Also notice, what is the sum of the market share of all the shops? (Market share means, the share of one)
 #
 
-# %%
-
-
+# +
 shop_dict: dict[str, int] = {
     "A": 6500,
     "B": 8000,
@@ -769,13 +684,11 @@ shop_dict: dict[str, int] = {
 
 for shop, sales in shop_dict.items():
     print(shop, sales / (sum(shop_dict.values()) - sales))
-
+# -
 
 # 6. John buys a mobile phone for 1800 from Kolkata and sells it at Mumbai at a gain of 25%. If his overhead expenses are 5% of the selling price, then what is his selling price?
 
-# %%
-
-
+# +
 phone_price: int = 1800
 
 phone_margin: float = phone_price * 1.25
@@ -783,26 +696,22 @@ phone_margin: float = phone_price * 1.25
 selling_price: float = phone_margin * 0.95
 
 selling_price
-
+# -
 
 # 7. Find the volume and Surface area of a cube whose diagonal is 5 Mtr
 
-# %%
-
-
+# +
 diagonal: int = 5
 
 cube_volume = diagonal**3 / math.sqrt(3)
 cube_surface = 2 * (diagonal**2)
 
 print(cube_volume, cube_surface)
-
+# -
 
 # 8. Three cubes of metal whose edges are 3, 4, and 5 cms respectively, are melted and formed into a single cube. Find the edge of the new cube formed.
 
-# %%
-
-
+# +
 first_edge: int = 3
 second_edge: int = 4
 third_edge: int = 5
@@ -819,12 +728,9 @@ total_volume: float = volume_one + volume_two + volume_three
 new_edge: float = total_volume ** (1 / 3)
 
 new_edge
-
+# -
 
 # 9. Write a 6 digit number. Write a program to reverse the order of the digits in the number
-
-# %%
-
 
 six_digit_number = 123456
 reversed_digits = int(str(six_digit_number)[::-1])

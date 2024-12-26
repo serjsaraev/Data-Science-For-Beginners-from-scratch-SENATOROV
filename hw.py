@@ -1,24 +1,9 @@
-# ---
-# jupyter:
-#   jupytext:
-#     formats: ipynb,py:percent
-#     notebook_metadata_filter: -kernelspec
-#     text_representation:
-#       extension: .py
-#       format_name: percent
-#       format_version: '1.3'
-#       jupytext_version: 1.16.4
-# ---
- 
-# %%
 """Detailed roadmap to became professional."""
 
-# %% [markdown]
 # - Демидович
 # - Calculus(https://t.me/c/1937296927/888/22444)
 # - 1)5.18,5.20,5.22,5.23-5.25,(5.28-5.60 только четные)
 
-# %% [markdown]
 #
 #
 # #### `Проверка линтером файлов:`
@@ -30,7 +15,6 @@
 #
 #
 
-# %% [markdown]
 #
 # #### `Python:`
 # 1. https://t.me/c/1937296927/1/16676
@@ -56,7 +40,6 @@
 # 3. Практический курс по питону https://stepik.org/course/63085/promo(опционально)
 #
 
-# %% [markdown]
 #
 # #### `Аналитика данных на pandas:`
 #
@@ -76,7 +59,6 @@
 # https://leetcode.com/studyplan/30-days-of-pandas/
 #
 
-# %% [markdown]
 #
 # #### `Data Cleaning(Regex):`
 # 1. https://leetcode.com/tag/string-matching/ выполнить изи и попробуй мидл
@@ -93,7 +75,6 @@
 #
 #
 
-# %% [markdown]
 #
 # #### `Data Visual:`
 # 1. https://www.kaggle.com/learn/data-visualization
@@ -105,7 +86,6 @@
 #
 #
 
-# %% [markdown]
 #
 # #### `SQL:`
 # 1. https://karpov.courses/simulator-sql
@@ -121,7 +101,6 @@
 # 7. https://sql-academy.org/ru/trainer/tasks/1
 #
 
-# %% [markdown]
 #
 # #### `Практика:`
 # 1. https://t.me/c/1937296927/ прочитать
@@ -152,7 +131,6 @@
 # и так дальше по другим задачам.
 #
 
-# %% [markdown]
 #
 # #### `Computer Science:`
 # 1) компьютер сайнс пройти курс https://learn.epam.com/detailsPage?id=07464fe7-306f-4aa2-abdb-fb81ba509124
@@ -160,7 +138,6 @@
 #
 #
 
-# %% [markdown]
 #
 # #### `Math(school):`
 # 1. Пройти все разделы которые непонятны https://mathter.pro/pesochnica/index.html (фото конспекта скинуть в папку math/school_math/, в формате pdf)
@@ -171,7 +148,6 @@
 #
 #
 
-# %% [markdown]
 #
 # #### `Linal:`
 #
@@ -187,14 +163,12 @@
 #
 #
 
-# %% [markdown]
 #
 # #### `Youtube:`
 # 1. линал для чайников https://www.youtube.com/playlist?list=PLVjLpKXnAGLXPaS7FRBjd5yZeXwJxZil2
 # 1. линал в matlab https://www.youtube.com/playlist?list=PLmu_y3-DV2_kkWhk2mK0opp7ma8mSS3xf
 #
 
-# %% [markdown]
 #
 # #### `Calculus:`
 #
@@ -202,7 +176,6 @@
 # https://vk.com/doc297168001_651784102
 #
 
-# %% [markdown]
 #
 # #### `Practice:`
 # 1. https://www.lektorium.tv/matematicheskij-analiz (прочитать весь "Список теоретических материалов"(под видео) и выписать в тетрадь все ПРИМЕРЫ И РЕШЕНИЯ), пройти ДО дифуров!
@@ -220,7 +193,6 @@
 #
 #
 
-# %% [markdown]
 #
 #
 # #### `Итоговый контроль:`
@@ -240,7 +212,6 @@
 #
 #
 
-# %% [markdown]
 #
 #
 # #### `Архив:`

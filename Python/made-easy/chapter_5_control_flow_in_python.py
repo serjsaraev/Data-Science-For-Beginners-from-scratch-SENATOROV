@@ -1,18 +1,4 @@
-# ---
-# jupyter:
-#   jupytext:
-#     formats: ipynb,py:percent
-#     notebook_metadata_filter: -kernelspec
-#     text_representation:
-#       extension: .py
-#       format_name: percent
-#       format_version: '1.3'
-#       jupytext_version: 1.16.4
-# ---
-
-# %%
-
-# %%
+# +
 
 
 """Chapter 5 Control Flow Statement."""
@@ -71,7 +57,7 @@
 
 # ![for-loop-chart](img/for_loop.png)
 
-# %%
+# +
 
 
 words: list[str] = ["cat", "window", "defenestrate"]
@@ -94,7 +80,7 @@ for w_ in words:
 
 # ![for-loop-chart](img/for_else.png)
 
-# %%
+# +
 
 
 numbers: list[int] = [1, 2, 3, 4, 5]
@@ -110,7 +96,7 @@ print("this is end of the code")
 #
 # If you do need to iterate over a sequence of numbers, the built-in function range() comes in handy. It generates arithmetic progressions
 
-# %%
+# +
 
 
 for i in range(5):
@@ -128,7 +114,7 @@ for i in range(5):
 # and len() as follows:
 #
 
-# %%
+# +
 
 
 names: list[str] = ["Mary", "Tom", "Chris", "Charles"]
@@ -143,7 +129,7 @@ for i, name in enumerate(names):
 
 # ![while-loop](img/while_loop.png)
 
-# %%
+# +
 
 
 n_: int = 10
@@ -174,7 +160,7 @@ print("The sum is", sum)
 # The break statement breaks out of the innermost enclosing for or while loop. it is executed when the loop terminates through exhaustion of the list (with for) or when the condition becomes false (with while), but not when the loop is terminated by a break statement.
 #
 
-# %%
+# +
 
 
 list_number = [1, 2, 3, 4, 5]
@@ -188,7 +174,7 @@ else:
 print("this line is outside the loop")
 
 
-# %%
+# +
 
 
 for n_ in range(2, 10):
@@ -206,7 +192,7 @@ for n_ in range(2, 10):
 
 # ![while-loop](img/continue_statement.png)
 
-# %%
+# +
 
 
 for alphabet in "python":
@@ -216,7 +202,7 @@ for alphabet in "python":
 print("The end")
 
 
-# %%
+# +
 
 
 for num in range(2, 10):
@@ -264,7 +250,7 @@ for num in range(2, 10):
 
 # 1. A trader wants a program to check whether he made a profit or loss over a trade. Write the program where the input for buying and selling price is entered through keyboard input, and the program tells if the trader made a profit or loss. The program shall also calculate the profit or loss made.
 
-# %%
+# +
 
 
 buy_price: float = float(input("Buy price"))
@@ -282,7 +268,7 @@ else:
 
 # 2. Write a program to check whether the year entered through the keyboard is a leap year or not
 
-# %%
+# +
 
 
 current_year: int = int(input("What's current year?"))
@@ -297,7 +283,7 @@ else:
 #
 #
 
-# %%
+# +
 
 
 sameer_exp: int = int(input("What is your experience, Sameer?"))
@@ -315,7 +301,7 @@ else:
 # 4. A Sum of three angles inside a triangle is 180 degrees. Write a program to check if the shape is a triangle or not, when the three angles are given as input.
 #
 
-# %%
+# +
 
 
 first_angle: int = int(input("Write first angle"))
@@ -332,7 +318,7 @@ else:
 
 # 5. When the three angles of a triangle are given, write a program to check if its a right angle triangle or not. (One angle must be 90 degrees)
 
-# %%
+# +
 
 
 angle_list = [first_angle, second_angle, third_angle]
@@ -352,7 +338,7 @@ else:
 # 6. Write the code to output multiplication table of any number given as input.
 #
 
-# %%
+# +
 
 
 multiply_number: int = int(input("Write your number to display multi table"))
@@ -363,7 +349,7 @@ for i in range(1, 11):
 
 # 7. Write a program to print all prime numbers between 1 to 500
 
-# %%
+# +
 
 
 for i in range(1, 501):
@@ -373,7 +359,7 @@ for i in range(1, 501):
 
 # 8. Print all the multiples of 9, which are less than 300
 
-# %%
+# +
 
 
 for i in range(1, 301):
@@ -383,7 +369,7 @@ for i in range(1, 301):
 
 # 9. A machine gives annual earning of Rs 2000 during its lifetime. It costs Rs.10000 and can be sold off for Rs. 2500 when it is discarded. If 8 percent per annum can be earned if the same amount is invested in some alternate investment, what would be the minimum life of the machine to make it a more attractive investment compared to alternative investment?
 
-# %%
+# +
 
 
 car_price: int = 1000000
