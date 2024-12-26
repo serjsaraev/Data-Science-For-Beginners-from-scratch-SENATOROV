@@ -53,18 +53,6 @@
 #
 # conda env create -f environment.yml. - для создания окружения и установки пакетов, определенных в файле environment.yml.
 
-# +
-
-
-pip install -r requirements.txt
-# -
-
-# !conda env create -f environment.yml
-
-pip freeze > requirements.txt
-
-# !conda env export > environment.yml
-
 # #### 7. Что делают эти команды?
 #
 # pip list - показывает список всех пакетов, установленных в текущем виртуальном окружении
@@ -72,12 +60,6 @@ pip freeze > requirements.txt
 # pip show - выводит подробную информацию об установленном пакете
 #
 # conda list - показывает список всех пакетов, установленных в активированном окружении Conda
-
-pip list
-
-pip show asttokens     
-
-# !conda list 
 
 # #### 8. Где по умолчанию больше пакетов venv/pip или conda? и почему дата сайнинисты используют conda?
 #
@@ -98,5 +80,3 @@ pip show asttokens
 # #### 11. С этого момента надо работать в виртуальном окружении conda, ты научился(-ась) выгружать зависимости и работать с окружением?
 #
 # Да
-
-
