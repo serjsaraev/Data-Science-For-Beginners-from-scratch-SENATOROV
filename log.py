@@ -151,3 +151,52 @@
 #
 # - We discussed the further
 # study plan
+
+# ### Module 18
+# *08.12.24*
+# - Introduction to Machine Learning: Supervised and Unsupervised Learning
+
+# ### Module 19
+# *09.12.24*
+# - We started studying linear regression. 𝑦=𝑘𝑥+𝑏
+# - We looked at an example with GDP.
+
+# ### Module 20
+# *12.12.24*
+# - We plotted 5 data points on a graph and created a linear regression model
+#  \( y = \beta_0 + \beta_1 x \), where \( \beta_0 \) and \( \beta_1 \)
+#  are the parameters. We also calculated the residuals
+#  \( e_1, e_2, ..., e_5 \) as the differences between the actual
+#  \( y_i \) values and the predicted \( \hat{y}_i \) values.
+#
+
+# ### Module 21
+# *17.12.24*
+# - We explored MAE and MSE, delving into the topic of errors. We examined the loss function on a graph, discussed the loss function, and considered the global minimum and the point of extremum.
+
+# ### Module 22
+# *19.12.24*
+#  - Explored the loss function in more detail.
+
+# ### Module 23
+# *21.12.24*
+# - Covered the concepts of vectors, gradient, and partial derivatives. Examined examples on 3D graphs and discussed the ideas of a local minimum and the antigradient.
+#
+
+# ### Module 24 - 25
+# *31.12.24*
+# - Повторили тему производных(секущая,касательная). Рассмотрели антиградиент,градиент, понятие векторов.
+# Рассмотрели тему частных производных
+
+# ### Module 26
+# *02.01.25*
+# - Повторили тему, функция потерь. Причину по которой нельзя
+# брать производную в нуле в MAE
+
+# ### Module 27
+# *04.01.25*
+# - Создали на питоне дата фрейм,с
+# использованием pandas,составили визуализацию
+# посчитали y_pred c помощью numpy,matplotlib
+#
+#
