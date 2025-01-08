@@ -7,3 +7,5 @@
 # Повторно произвели преобразование файлов .ipynb в файлы .py</p>
 
 # <p> 10.11.2014 даже не могу сказать что мы делали. Пытались отдать коммит. Но так ничего и не отдали. И сейчас ничего у меня не получается.</p>
+
+# 07/01/2025 Теория вероятностей. Случайные величины. Полный конспект C:\Users\Senatorov_education\Documents\GitHub\Data-Science-For-Beginners-from-scratch-SENATOROV\Python\probability\theory_lesson_070125.ipynb
