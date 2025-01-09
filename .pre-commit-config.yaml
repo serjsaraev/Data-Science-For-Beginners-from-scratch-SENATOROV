@@ -138,7 +138,6 @@ repos:
           - types-requests
           - types-PyYAML
           - types-setuptools
-
         args:
           # - --cache-dir=/dev/null
           # - --cache-dir=nul
@@ -162,8 +161,9 @@ repos:
           - --warn-redundant-casts
           - --warn-return-any
           - --disallow-any-explicit
-
-
+        env:
+          LC_ALL: C.UTF-8
+          PYTHONIOENCODING: utf-8
 
   - repo: https://github.com/pre-commit/mirrors-mypy
     rev: v1.13.0
