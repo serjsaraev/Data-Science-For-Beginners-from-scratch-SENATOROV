@@ -10,7 +10,7 @@ import numpy as np  # numpy для математических операций
 # <p>matplotlib библиотека для создания визуализаций</p>
 
 # # Эскейп последовательность
-# \_\_init\_\_.py 
+# \_\_init\_\_.py
 #
 # ![image.png](attachment:image.png)
 
