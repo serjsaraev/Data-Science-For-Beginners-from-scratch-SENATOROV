@@ -6,6 +6,7 @@ Python programming.
 # mypy: allow-untyped-defs
 # mypy: allow-untyped-calls
 import numpy as np
+from matplotlib import pyplot as plt
 
 # ![image.png](attachment:image.png)
 
@@ -173,3 +174,44 @@ else:  # входит вектор-столбец
         v_add = np.array(v_add, ndmin=2)
 
 print(v_add)
+
+# +
+# Гибкость бродкастинга - разные математические операции в отличие от outer
+# product
+twt = np.array([[1, 2, 3]])
+twwt = np.array([[2, 4]])
+broadcasttwt = twt.T + twwt
+print(broadcasttwt)
+
+outerttwt = np.outer(twt, twwt)
+print(outerttwt)
+# -
+
+tw = np.random.randn(2)
+rw = np.random.randn(2)
+
+# +
+tw_para = rw * (np.dot(tw, rw) / np.dot(rw, rw))
+tw_perp = tw - tw_para
+
+# tw, tw_para + tw_perp
+# array([ 0.82625583, -0.96648386]), array([ 0.82625583, -0.96648386])
+# -
+
+int(np.dot(tw_para, tw_perp))  # orto 10**(-17), 1/1000000000000000000 = 0
+
+plt.figure(figsize=(6, 6))
+
+plt.plot([0, tw[0]], [0, tw[1]], color="k", linewidth=3, label=r"t")
+plotwt = [0, rw[0]], [0, rw[1]]
+plt.plot(plotwt, color=[0.7, 0.7, 0.7], linewidth=3, label=r"r")
+plt.axis("equal")
+plt.legend()
+plt.show()
+
+plottwt = [0, tw_para[0]], [0, tw_para[1]]
+plt.plot(plottwt, "k--", linewidth=3, label=r"tw_perp")
+plt.plot([0, tw_perp[0]], [0, tw_perp[1]], "k:", linewidth=3, label=r"tw_orto")
+plt.axis("equal")
+plt.legend()
+plt.show()
