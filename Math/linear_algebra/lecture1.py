@@ -8,6 +8,8 @@ Python programming.
 import numpy as np
 from matplotlib import pyplot as plt
 
+# Linear weighted combinations
+
 # ![image.png](attachment:image.png)
 
 # L2 norm
@@ -215,3 +217,22 @@ plt.plot([0, tw_perp[0]], [0, tw_perp[1]], "k:", linewidth=3, label=r"tw_orto")
 plt.axis("equal")
 plt.legend()
 plt.show()
+
+# Перепишите исходный код линейно-взвешенной комбинации, но поместите скаляры
+# в список, а векторы – в качестве элементов в списке (таким образом, у вас
+# будет два списка, один из скаляров и один из массивов NumPy). Затем примените
+# цикл for, чтобы реализовать операцию линейно-взвешенной комбинации.
+# Инициализируйте выходной вектор функцией np.zeros(). Подтвердите, что вы
+# получаете тот же результат, что и в приведенном ранее исходном коде.
+
+# +
+# Linear weighted combinations
+l1, l2, l3 = 1, 2, 3
+wc1 = np.array([4, 6, 8])
+wc2 = np.array([3, 7, 0])
+wc3 = np.array([9, 1, 6])
+
+lin_weight_comb = l1 * wc1 + l2 * wc2 + l3 * wc3
+print(lin_weight_comb)
+# Линейно-взвешенная комбинация означает умножение на скаляр и сложение
+# векторов в множестве
