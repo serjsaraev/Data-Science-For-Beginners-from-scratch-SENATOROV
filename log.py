@@ -228,3 +228,8 @@
 # ![alt text](image-2.png)  - посмотреть stashs
 
 # ![alt text](image-3.png) - затрекаем временные изменения в коммит
+
+# ### Module 30
+# *16.01.25*
+# - Посчитали среднее значение w_change и b_change.
+# И посчитали b_change
