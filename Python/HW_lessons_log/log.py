@@ -11,3 +11,5 @@
 # 07/01/2025 Теория вероятностей. Случайные величины. Полный конспект C:\Users\Senatorov_education\Documents\GitHub\Data-Science-For-Beginners-from-scratch-SENATOROV\Python\probability\theory_lesson_070125.ipynb
 
 # 14/01/2025 Линейная алгебра. Векторы и координаты. Операции с векторами.
+
+# 16.01.2025 Разложение вектора по базису.
