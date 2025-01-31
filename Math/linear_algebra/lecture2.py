@@ -177,6 +177,17 @@ N_COL = 6
 # +
 # randn - random numbers from a standard normal distribution.
 # AMTRX
+
+# +
+# скалярное произведение матриц
+
+frs_mtrx = np.array([[1, 2], [3, 4], [5, 6]])
+
+scd_mtrx = np.array([[1, 2], [3, 4]])
+
+res_mtrx = frs_mtrx @ scd_mtrx
+
+print(res_mtrx)
 # -
 
 # <!-- # # two vectors in R3
