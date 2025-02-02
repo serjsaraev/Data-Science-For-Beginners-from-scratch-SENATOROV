@@ -190,6 +190,16 @@ res_mtrx = frs_mtrx @ scd_mtrx
 print(res_mtrx)
 # -
 
+mtrx1 = np.eye(3, 3)
+
+mtrx1
+
+scl_mlt = 7 * mtrx1
+
+scl_mlt
+
+mrx = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+
 # <!-- # # two vectors in R3
 # v1 = np.array([3, 5, 1])
 # v2 = np.array([0, 2, 2])
@@ -227,3 +237,65 @@ print(res_mtrx)
 # # fig.update_layout(margin={"l": 0, "r": 0, "b": 0, "t": 0})
 # # plt.savefig("Figure_03_07b.png", dpi=300)
 # # fig.show() -->
+
+mltp_mt_mt1 = mrx @ mtrx1
+
+mltp_mt_mt1
+
+mltp_mt1_mt = mtrx1 @ mrx
+
+mltp_mt1_mt
+
+print(mltp_mt1_mt == mltp_mt_mt1)
+
+adam_mltp_mt_mt1 = mrx * mtrx1
+adam_mltp_mt1_mt = mtrx1 * mrx
+
+print(adam_mltp_mt_mt1 == adam_mltp_mt1_mt)
+
+mlt_transp = mrx.T * mtrx1
+
+mrx.T
+
+mlt_transp
+
+mrx[1, 1]
+
+mrx[0]
+
+mrx[:, 1:3]
+
+np.dot(mrx, mtrx1)
+
+mrx @ mtrx1
+
+# ([[1., 2.],
+# [4., 5.]])
+#
+# det = 1*5 - 4*2 # determinant
+#
+
+np.linalg.det([[1, 2], [4, 5]])
+
+# ![image.png](attachment:image.png)
+
+mrtx_trns = np.array([[-1.25, -0.75], [-0.75, -0.25]]).T  # знаки!!!
+revert_mtrx = (
+    1 / np.linalg.det([[-1.25, 0.75], [0.75, -0.25]]) * mrtx_trns
+)  # надо поменять знаки при транспонировании
+
+revert_mtrx
+
+help(np.linalg.inv)  # (mrx)
+
+np.linalg.inv(mrx)
+
+np.linalg.inv([[-1.25, 0.75], [0.75, -0.25]])
+
+# А~ транспонированная алгебраических дополнений
+# В матрице миноров нужно ПОМЕНЯТЬ ЗНАКИ
+#
+# M = (1 -3
+#      -4 5)
+#
+# А**(-1) = 1/ |det| * A~T
