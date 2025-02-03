@@ -1,4 +1,4 @@
-"""Studying with @SENATOROVAI log-file."""
+"""Log-файл уроков @SENATOROVAI."""
 
 # 03/02/2025
 #
