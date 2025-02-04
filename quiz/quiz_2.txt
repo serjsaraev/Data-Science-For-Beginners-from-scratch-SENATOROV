@@ -1,0 +1,107 @@
+Список вопросов к видео https://t.me/c/1937296927/765/29781 (НАСТРОЙКА VSCODE, перенос строк, линтеры, работа с ячейками):
+
+(По желанию)В ответе подробно всё опишите и обязательно нужно указывать тайм код из видео где я это сказал, по желанию, дополнительно прикладываем скриншот из видео.
+Если вы знаете ответы на вопросы из Вашего опыта, то таймкоды из видео не надо указывать и т.д.
+
+1. Как включить автосохранение данных в VSCODE?
+2. Как настроить перенос строки? 
+3. Сколько символов по pep8 разрешено на строке?
+4. Какие способы переноса строк показаны в видео:
+
+4.1 Строки с использованием обратного слэша (\)
+
+string_continued = "This is a long string that we want to " \
+                   "split across multiple lines."
+print(string_continued)
+
+4.2 Тройные кавычки (''' или """) 
+
+multi_line_string = """This is a string that spans
+multiple lines. You can write freely
+and it will keep the line breaks."""
+print(multi_line_string)
+
+4.3 Создание списка строк и объединение с помощью join
+
+strings = [
+    "This is the first line.",
+    "This is the second line.",
+    "This is the third line."
+]
+result = "\n".join(strings)  # Используем перенос строк '\n'
+print(result)
+
+4.4 Использование круглых скобок для продолжения строки
+long_string = (
+    "This is a very long string that I would like to "
+    "continue on the next line."
+)
+print(long_string)
+
+4.5 Форматированные строки (f-строки) с использованием скобок
+letter_a = 5
+letter_b = 6
+product_ab = letter_a * letter_b
+
+message = (
+    f"when {letter_a} is multiplied by {letter_b}, "
+    f"the result is {product_ab}"
+)
+print(message)
+
+4.6 Сложение строк с помощью +
+
+string_part1 = "This is the first part, "
+string_part2 = "and this is the second part."
+full_string = string_part1 + string_part2
+print(full_string)
+
+5. Проверка на ошибки c помощью кнопки problems, где она находится?
+6. Где в vscode находится клиент гита? как в нём отправить коммит? как принять домашку?
+7. Что такое GIT? он локальный? В нём можно посмотреть историю изменений файлов и вернуться к любому коммиту?
+8. Как вставить картинку в маркдаун? 
+9. Где посмотреть длину строки в vs code?
+10. Как поменять тип ячейки с питона на маркдаун?
+11. Как запустить сразу все ячейки в юпитере?
+12. Как изменить размер картинки в юпитере? Нужно для этого знать HTML?
+13. Какой хоткей чтобы запустить ячейку с смещением на следующую?
+14. Как включить отображение номеров строк в юпитере(Cell line numbers)?
+15. Что такое "Go To" чем это полезно? Как перейти сразу на ошибочную ячейку?
+16. Как очистить вывод ячеек которые уже запущены?
+17. Как работать одновременно в нескольких файлах в VSCODE? Что такое SPLIT?
+18. Каким сочетанием убирается левый сайдбар?
+19. Кнопка два листочка это наши локальные файлы?
+20. Какая ошибка появилась в трассировке при запуске всех ячеек DICT или LIST?
+21. Вы ознакомились с https://t.me/c/1937296927/832/19307? и ttps://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet?
+22. Что такое валидация?
+23. Что такое трассировка ошибки?
+24. Что значит отвалился интерпритатор?
+
+
+
+Answers: 
+
+1. Go to File and check the box for Auto Save.
+2. Fie -> Preferences -> Settings -> Word Wrap Column
+3. 79
+4. 4.4 and 4.6
+5. In the terminal, it's the first tab at the top
+6. In VS Code, the Git client is located in the Source Control tab (branch icon) on the left sidebar. To send a commit, open the Source Control tab, stage your changes by clicking the + next to the files or using git add . in the terminal, write a commit message, and click the checkmark (✓) to commit or use git commit -m "Your message". After committing, push the changes using the "Push" button or the git push command. To accept homework (pull request), click the "Pull" button or run git pull in the terminal. If it's a pull request, review and merge it on the GitHub tab in VS Code or directly on GitHub’s website, then sync the latest changes with git pull
+7. Git is a version control system that helps track code changes. It works locally but can connect to remote repositories like GitHub. You can view change history and return to any commit
+8. ![Alt Text](image_url_or_path)
+9. In the bottom right corner of VS Code, Ln
+10. In the bottom right corner of VS Code - "Select Cell Language Mode"
+11. Click "Run all" on the top bar
+12. Yes, <img src="image.png" width="300" height="200">
+13. Shift + Enter
+14. Click "..." on cell, choose "Show Cell Line Numbers"
+15. It allows you to quickly jump to the cell with the issue
+16. Click "Clear all outputs" on the top bar
+17. VS Code allows you to work with multiple files by splitting the workspace into as many sections as you need. To do this, click on the Split Editor button.
+18. CTRL + B
+19. Yes, this is working with files in the open directory
+20. Incorrect data types
+21. +
+22. Validation is the process of checking data to ensure it is correct, accurate, and meets specific rules or requirements
+23. Traceback is a message that shows the sequence of function calls that led to an error. It helps identify where exactly the error occurred in the code and what caused it
+24. When the interpreter crashes, it means the program that executes your code has stopped working unexpectedly. This can happen due to runtime errors, memory issues, or critical bugs in the code or environment
