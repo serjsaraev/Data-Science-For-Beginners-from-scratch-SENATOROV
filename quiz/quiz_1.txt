@@ -1,0 +1,163 @@
+Список вопросов к видео https://t.me/c/1937296927/765/29780 (АЛГОРИТМ ПРИНЯТИЯ И ОТДАЧИ ДОМАШКИ):
+    
+(По желанию )В ответе подробно всё опишите и обязательно нужно указывать тайм код из видео где я это сказал, по желанию, дополнительно прикладываем скриншот из видео.
+Если вы знаете ответы на вопросы из Вашего опыта, то таймкоды из видео не надо указывать и т.д.
+
+1) Как понять, что домашка пришла?
+2) Как принять домашку?
+3) Зачем нужна кнопка history и какие функции появляются при нажатии правой кнопки мыши на коммит?
+3.1) Где брать ссылку на коммит? куда её отправлять? 
+4) Что такое файл лога? 
+4.1) Когда нужно его пушить?
+5) Что такое интерпритатор? 
+6) Где можно выбрать интерпритатор?
+7) Что такое модуль? 
+8) Как создать и отправить коммит?
+9) Как посмотреть что коммит точно отправлен и находится в github?
+10) Какая команда показывает что код не прошёл проверки на ошибки? 
+10.1) Напишите список линтеров которые используются для проверки кода и дайте их краткую характеристику.
+11) Как узнать какой именно линтер не прошёл проверку?
+12) Линтер Pylint видит markdown?
+13) Номер ячейки в терминале и номер ячейки в vs code может отличаться? в каком случае?
+14) Где посмотреть номер ячейки в vscode?
+15) В каком формате ipynb отправляется в гитхаб? причём здесь JSON?
+16) Где посмотреть в какой ячейке ошибка?
+17) Как запустить терминал?
+18) Что такое линтер?
+19) В какой сайт нужно вставлять код ошибки если ошибка связана с pylint?
+20) Секция pydocstyle в большинстве случае автоматический закрывается после исправления ошибок в каком линтере?
+21) Что такое описание модуля? Оно должно отражать информацию о том что находится в модуле?
+21) С какой  git команды начинается утро программиста?
+22) После внесения изменений в файлах, кнопка open in vs code пропадает в кошке, как по другому открыть vs code из кошки?
+23) Что такое stash?  
+  Общее объяснение концепции.
+23.1) Как сохранить стэш?
+  git командa(подсказка: https://t.me/c/1937296927/3602/19531): 
+
+  Кнопка в vs code:
+
+23.2) Как восстановить стэш(подсказка: https://t.me/c/1937296927/3602/25747)?:
+
+      git команда(подсказка: https://t.me/c/1937296927/3602/19531)?:
+
+23.3) Различие между стэшем и коммитом.  
+  Когда лучше сохранить изменения в стэше, а когда коммитить.
+23.4) Как просмотреть список сохраненных стэшей?  
+  git команда (подсказка: https://t.me/c/1937296927/3602/19531):
+
+23.5) Как удалить стэш?  
+  Команды для удаления отдельных стэшей или всех сразу.
+  git команда (подсказка: https://t.me/c/1937296927/3602/19531):
+
+23.6) Практические примеры использования стэша.  
+  Краткие сценарии, где стэш помогает.
+
+24) Где посмотреть что есть конфликт в файлах? 
+24.1) Когда он появляется?
+25) Как решить конфликт в файлах?
+26) Напишиие правильное утверждение
+-Зелёное то что пришло с гитхаба и синее локальные изменения или синее то что пришло с гитхаба и зелёное это локальные изменения 
+27) Если мы работаем в одном файле, можно ли принять pull после того как вы спрячете в стэш свои изменения? 
+27.1) Что может произойти когда stash восстановите после принятия pull?
+28) Сколько способов решения конфликтов было показано в видео? Напишите ЧИСЛО и укажите их способы.
+29) Что делает кнопка complete merge?
+30) В какой чат нужно писать если остались вопросы?
+31) Что такое FORK? Зачем его делают? 
+32) Как скачать форкнутый репозиторий на локальный компьютер?
+33) С какой вероятностью ваши ошибки были уже решены? и кто их решил?
+34) Как создать файл в vs code?
+35) Файл лога нужно заполнять в конце каждого урока?
+==================
+
+Дополнительные вопросы:
+1)Какая команда конвертирует файл в py из ipynb? 
+подсказка https://t.me/c/1937296927/1/26527 
+2) Что такое пакетный менеджер? Вы пользуетесь пакетным менеджером conda или pip? Какой лучше использовать для дата сайнс?
+3) Почему расширение py лучше чем ipynb?
+4) Что такое pep8? 
+подсказка:https://peps.python.org/pep-0008/
+4.1) линтеры проверяют на соблюдение pep8?
+4.2) Какая нотация используется для создания переменных? 
+ответ на 85-95 страницы https://t.me/c/1937296927/1/16676
+4.3) Может ли переменная состоять из одной буквы например андерскор  "_" ?
+4.4) Зачем и где мы используем андерскор _ 
+4.5) По PEP8 допустима переменная в одну букву?
+ответ на 85-95 страницы https://t.me/c/1937296927/1/16676
+
+
+Answers:
+
+1) A message appeared in the homework chat with a username and the text "accept the pull."
+2) Pull the latest changes from the branch by executing the command: git pull
+3) To view the commit history of a repository, showing changes made over time, including commit messages
+3.1) Click History, then select View on GitHub. After the GitHub page opens, copy the website link and send it to the Homework chat
+4) An ipynb file that contains information about what was covered in the lesson. It should include the lesson date and the key points remembered
+4.1) After the lesson
+5) Execute code without compiling it
+6) Press Ctrl + Shift + P. 2. Type "Python: Select Interpreter" and press Enter
+7) File containing code (functions, classes, variables) dedicated to a specific task, which can be imported and reused in other programs
+8) Use the command git add . to add all changes.Then use git commit -m "description of changes" to commit with a message
+9) Check history on github and validate pushed changes
+10) pre-commit run --all-files
+10.1) 
+  Pylint: Analyzes Python code for errors, coding standards, and code smells
+  Pydocstyle: Checks if docstrings follow Python documentation conventions
+  Flake8: Detects syntax errors, style issues, and simple bugs in code
+  Mypy: Performs static type checking to catch type-related errors
+11) In the bottom right corner, Ln indicates the line number
+12) No, it doesn't work for markdown
+13) Yes, if file contains markdown cell, there aren't counted
+14) In the terminal, when processing the command pre-commit run --all-files, the linter shows the cell number after the file name
+15) An ipynb file is uploaded to GitHub in JSON format because it stores code, outputs, and metadata in a structured way
+16) When running a code check, you can see which linters passed and which ones failed, along with error codes for each issue
+17) Terminal -> New Terminal 
+18) A linter is a tool that analyzes code to find errors, style issues, and potential bugs
+19) https://pylint.pycqa.org
+20) Pylint or Flake8
+21) Docstring placed at the beginning of a Python module. It is used to briefly describe what the module or file does
+21) git pull
+22) Right-click on Current repository and select Open in VS Code
+23) Git stash temporarily saves changes without committing, allowing you to switch branches or work on something else, then restore them later
+23.1) git stash, git stash save "Description", git stash -k, git stash -u
+23.2) git stash apply
+23.3) 
+  git stash: Temporarily saves changes without adding them to history. Used to switch tasks quickly
+  git commit: Permanently saves changes to the repository history. Used to finalize work
+23.4) git stash list
+23.5) To delete the last stash - git stash drop. To delete a specific stash by its index - git stash drop stash@{index}. To delete all stashes at once - git stash clear
+23.6) Urgently switch between branches without losing current changes and use them later
+Pull latest changes from origin by stashing existing uncommitted changes
+24) During execution git merge or git pull command, git will display an error message indicating that there are conflicting files
+24.1) A conflict occurs when git can't automatically merge changes from different branches or commits. For example, multiple developers modified the same code part in the same file or different changes were made to different parts of the same file
+25) In VS Code, you can resolve conflicts by accepting changes from the original or keeping current changes. For deeply conflicting changes, you can accept both and resolve them manually
+26) The green highlights show changes from GitHub, while the blue highlights indicate local changes
+27) yes 
+27.1) We might face conflicts if the changes in the stash affect the same code that was modified in the remote branch
+28) total - 4: accept incoming changes, 3: accept current changes, 2: accept both, 1: correct manually
+29) Completes the merge
+30) help
+31) A fork is a copy of a repository that allows you to freely modify the code without affecting the original project
+32) Go to the forked repository page on GitHub. Click the Code (or Clone) button and copy the repository URL (you can choose HTTPS or SSH). Then, in the terminal, run the command:
+git clone <URL>
+33) 90%
+34) File -> New File
+35) Yes
+==================
+
+Answers on additional questions:
+1) jupyter nbconvert --to script <filename>.ipynb
+2) A package manager is a tool to install, update, and manage libraries. For data science, both conda and pip are used
+Conda is better for managing environments and dependencies
+Pip is great for installing Python-specific packages
+Conda is often preferred for data science due to better environment handling
+3) .py files are better for clean code, version control, and running scripts
+.ipynb files are better for interactive work like data analysis
+4) PEP 8 (Python Enhancement Proposal 8) is a coding style guide for Python. It provides recommendations and standards to make code readable, clear, and maintainable
+4.1) yes
+4.2) snake_case
+4.3) Yes, a variable can consist of a single character
+4.4) The underscore _ is used to ignore values, refer to the last result, mark private variables, and as a placeholder in loops
+4.5) It's allowed to use single-letter variables
+
+
+
