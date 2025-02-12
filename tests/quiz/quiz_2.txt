@@ -22,7 +22,6 @@ long_string = (
 print(long_string)
 
 4.6 Сложение строк с помощью +
-
 string_part1 = "This is the first part, "
 string_part2 = "and this is the second part."
 full_string = string_part1 + string_part2
